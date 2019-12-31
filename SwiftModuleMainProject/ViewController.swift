@@ -12,9 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.white
+        title = "首页"
     }
 
-
+    @IBAction func printAction(_ sender: Any) {
+        
+        
+    }
+    
+    @IBAction func gotoAction(_ sender: Any) {
+        
+        
+    }
 }
 
