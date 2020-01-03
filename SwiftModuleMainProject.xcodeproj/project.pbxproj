@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,7 +48,6 @@
 				B0E907DB6842FC2BE0947FDD /* Pods-SwiftModuleMainProject.debug.xcconfig */,
 				4BE732AC2892778AD3145604 /* Pods-SwiftModuleMainProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

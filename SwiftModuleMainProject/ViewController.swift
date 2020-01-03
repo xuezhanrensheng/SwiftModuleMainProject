@@ -18,11 +18,16 @@ class ViewController: UIViewController {
 
     @IBAction func printAction(_ sender: Any) {
         
+        let alert = AlertModule()
+        alert.showMsg(str: "我是测试")
+        
         
     }
     
     @IBAction func gotoAction(_ sender: Any) {
         
+        let vc = LoginViewController()
+        navigationController?.pushViewController(vc, animated: true)
         
     }
 }
